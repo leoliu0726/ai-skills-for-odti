@@ -1,0 +1,262 @@
+{
+  "_comment": "Template for SCI Paper Review Comments - Updated for optimized workflow",
+  "_version": "2.0",
+  
+  "comment_template": {
+    "comment_id": "",
+    "severity": "Fatal | Major | Minor | Editorial",
+    "category": "Research Novelty | Theoretical Framework | Methodology | Experimental Design | Data Analysis | Results Interpretation | Writing Quality | Figures & Tables | Literature References | General",
+    "location": {
+      "section": "",
+      "page": "",
+      "paragraph": "",
+      "line_range": "",
+      "figure": "",
+      "table": "",
+      "equation": "",
+      "formatted": "Section X.X, Page X, Paragraph X"
+    },
+    "source": "Manual | AI",
+    "type": "formal | reference | internal",
+    "content": {
+      "title": "",
+      "issue": "",
+      "evidence": "",
+      "suggestion": ""
+    },
+    "ai_reference": false,
+    "uncertain": false,
+    "uncertain_note": "",
+    "timestamp": ""
+  },
+  
+  "severity_definitions": {
+    "Fatal": {
+      "description": "Critical issues that invalidate conclusions or violate ethical standards",
+      "examples": [
+        "Scientific errors that invalidate main conclusions",
+        "Fabricated or falsified data",
+        "Plagiarism or severe ethical violations",
+        "Missing essential controls that invalidate results"
+      ],
+      "action": "Must be resolved before reconsideration"
+    },
+    "Major": {
+      "description": "Significant issues that substantially affect the quality or conclusions",
+      "examples": [
+        "Major methodological flaws",
+        "Significant gaps in logic or evidence",
+        "Critical missing data or controls",
+        "Inadequate sample size or power",
+        "Major inconsistencies in results"
+      ],
+      "action": "Should be addressed in revision"
+    },
+    "Minor": {
+      "description": "Small issues that don't fundamentally affect conclusions",
+      "examples": [
+        "Minor clarity improvements",
+        "Small errors or omissions",
+        "Suggestions for enhanced presentation",
+        "Superficial inconsistencies"
+      ],
+      "action": "Optional but recommended"
+    },
+    "Editorial": {
+      "description": "Formatting, language, and style issues",
+      "examples": [
+        "Grammar and spelling errors",
+        "Inconsistent terminology",
+        "Reference formatting issues",
+        "Figure/table formatting",
+        "Length issues"
+      ],
+      "action": "Should be corrected for publication"
+    }
+  },
+  
+  "category_definitions": {
+    "Research Novelty": {
+      "description": "Assessment of original contributions and significance",
+      "checkpoints": [
+        "Originality of research questions",
+        "Novelty of methods or findings",
+        "Contribution to field advancement",
+        "Comparison with existing literature"
+      ]
+    },
+    "Theoretical Framework": {
+      "description": "Quality of theoretical background and justification",
+      "checkpoints": [
+        "Clarity of theoretical basis",
+        "Completeness of concepts defined",
+        "Appropriateness of framework",
+        "Integration with methodology"
+      ]
+    },
+    "Methodology": {
+      "description": "Quality and appropriateness of research methods",
+      "checkpoints": [
+        "Method appropriateness for questions",
+        "Technical soundness",
+        "Reproducibility",
+        "Statistical method selection"
+      ]
+    },
+    "Experimental Design": {
+      "description": "Quality of experimental structure and controls",
+      "checkpoints": [
+        "Logical structure",
+        "Appropriate controls",
+        "Variable identification",
+        "Power analysis"
+      ]
+    },
+    "Data Analysis": {
+      "description": "Quality of data processing and statistical analysis",
+      "checkpoints": [
+        "Analysis accuracy",
+        "Transparency",
+        "Method appropriateness",
+        "Assumption verification"
+      ]
+    },
+    "Results Interpretation": {
+      "description": "Quality of how results are explained and contextualized",
+      "checkpoints": [
+        "Objectivity",
+        "Alignment with data",
+        "Causality claims appropriateness",
+        "Limitation acknowledgment"
+      ]
+    },
+    "Writing Quality": {
+      "description": "Quality of writing and manuscript organization",
+      "checkpoints": [
+        "Clarity and readability",
+        "Organization and flow",
+        "Language proficiency",
+        "Terminology consistency"
+      ]
+    },
+    "Figures & Tables": {
+      "description": "Quality and effectiveness of visual elements",
+      "checkpoints": [
+        "Clarity and resolution",
+        "Labeling and legends",
+        "Information presentation",
+        "Integration with text"
+      ]
+    },
+    "Literature References": {
+      "description": "Quality and appropriateness of citations",
+      "checkpoints": [
+        "Relevance",
+        "Currency",
+        "Accuracy",
+        "Completeness"
+      ]
+    }
+  },
+  
+  "ai_reference_template": {
+    "type": "ai_reference",
+    "category": "",
+    "opinion": "",
+    "confidence": "Low | Medium | High",
+    "disclaimer": "[AI reference comments, only for expert personal reference, not valid for official review]",
+    "ai_reference": true,
+    "note": ""
+  },
+  
+  "ai_hardcore_review_categories": {
+    "logic_conflicts": {
+      "description": "Logic consistency checks",
+      "checkpoints": [
+        "Abstract-method conclusion consistency",
+        "Data reference consistency",
+        "Method-conclusion logical chain"
+      ]
+    },
+    "data_consistency": {
+      "description": "Data self-consistency checks",
+      "checkpoints": [
+        "Number format consistency",
+        "Unit consistency",
+        "Percentage format uniformity"
+      ]
+    },
+    "figure_table_issues": {
+      "description": "Figure and table format checks",
+      "checkpoints": [
+        "Figure reference format consistency",
+        "Table reference format consistency",
+        "Legend and label completeness"
+      ]
+    },
+    "citation_issues": {
+      "description": "Citation format checks",
+      "checkpoints": [
+        "Citation format uniformity",
+        "Reference completeness"
+      ]
+    },
+    "experiment_info_gaps": {
+      "description": "Experimental information completeness",
+      "checkpoints": [
+        "Sample size reporting",
+        "Replicates reporting",
+        "Statistical test specification",
+        "Control group description"
+      ]
+    },
+    "language_issues": {
+      "description": "Language quality checks",
+      "checkpoints": [
+        "Article usage",
+        "Tense consistency",
+        "Plural/singular agreement"
+      ]
+    }
+  },
+  
+  "review_params_template": {
+    "novelty_level": "Original | Incremental | Derivative",
+    "academic_impact": "High | Medium | Low",
+    "writing_level": "Excellent | Good | Adequate | Poor",
+    "reviewer_attitude": "Constructive | Critical | Neutral",
+    "target_journal_type": "nature | advanced_materials | ieee | elsevier | springer | other"
+  },
+  
+  "example_comments": [
+    {
+      "comment_id": "C001",
+      "severity": "Major",
+      "category": "Methodology",
+      "location": "Section 2.1, Page 5, Paragraph 3",
+      "source": "Manual",
+      "type": "formal",
+      "content": {
+        "title": "Inadequate statistical analysis",
+        "issue": "The authors used parametric t-test for data that fails the normality assumption.",
+        "evidence": "Shapiro-Wilk test results (p = 0.003) indicate non-normal distribution.",
+        "suggestion": "Replace with Mann-Whitney U test or transform the data."
+      },
+      "ai_reference": false,
+      "uncertain": false,
+      "timestamp": "2024-01-15T10:30:00"
+    },
+    {
+      "comment_id": "AI_1",
+      "severity": "Editorial",
+      "category": "figure_table_issues",
+      "location": "Throughout manuscript",
+      "source": "AI",
+      "type": "reference",
+      "content": "Figure reference format inconsistent (Fig./Figure mixed usage)",
+      "ai_reference": true,
+      "uncertain": true,
+      "note": "[Uncertain] Requires human verification. May be journal style dependent."
+    }
+  ]
+}
