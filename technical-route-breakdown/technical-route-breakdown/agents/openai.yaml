@@ -1,4 +1,0 @@
-interface:
-  display_name: "Technical Route Breakdown"
-  short_description: "Build actionable process route plans."
-  default_prompt: "Use $technical-route-breakdown to first confirm my demand, purpose, process, equipment, and materials, then turn the challenge into key questions, material requirements, equipment comparison, past experience, and a concrete plan."
