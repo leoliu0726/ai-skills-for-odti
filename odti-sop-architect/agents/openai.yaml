@@ -1,0 +1,4 @@
+interface:
+  display_name: "????SOP????"
+  short_description: "Generate precise SOPs for any process."
+  default_prompt: "Use $sop-architect to request mandatory process parameters first, then generate a concise, executable SOP for any process."
