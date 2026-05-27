@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "odti-Agile R&D Project Architect"
+  short_description: "Plan executable R&D projects."
+  default_prompt: "Use $odti-agile-rd-project-architect to request project boundaries first, then generate a high-resolution R&D project plan."

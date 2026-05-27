@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "odti-Advanced Scientific Grant Proposal Architect"
+  short_description: "Draft rigorous scientific grant proposals."
+  default_prompt: "Use $odti-advanced-scientific-grant-proposal-architect to request core scientific elements first, then generate a structured grant proposal."
